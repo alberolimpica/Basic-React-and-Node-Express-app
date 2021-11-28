@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import PhoneList from "./components/PhoneList"
+import PhoneGrid from "./components/PhoneGrid"
 function App() {
   // here you set a state to tell the component it need to wait
   //  until the result is fetched from the api
@@ -22,7 +22,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <PhoneList data={data} />
+      <PhoneGrid data={data} />
     </div>
   );
 }
