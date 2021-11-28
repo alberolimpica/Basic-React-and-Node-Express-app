@@ -8,16 +8,17 @@ function Phone(props) {
         <div>
             <h1>{props.name}</h1>
             <h2>{props.manufacter}</h2>
-            <p>{props.price}</p>
+            <p>${props.price}</p>
             <p>{props.description}</p>
-            <div>
+
+            {props.showDetails === true &&
                 <ul>Specs:
                     <li>{props.color}</li>
                     <li>{props.screen}</li>
                     <li>{props.processor}</li>
                     <li>{props.ram}</li>
                 </ul>
-            </div>
+            }
         </div>
     </div>;
 }

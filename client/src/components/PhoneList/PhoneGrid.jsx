@@ -3,7 +3,7 @@ import { experimentalStyled as styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import Phone from './Phone';
+import Phone from '../Phone';
 
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
@@ -25,10 +25,7 @@ function PhoneGrid({ data }) {
                             manufacter={phone.manufacter}
                             price={phone.price}
                             description={phone.description}
-                            color={phone.color}
-                            screen={phone.screen}
-                            processor={phone.processor}
-                            ram={phone.ram}
+                            showDetails={false}
                         /> </Item>
                     </Grid>
                 ))}
