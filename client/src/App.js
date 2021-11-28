@@ -1,32 +1,29 @@
-import './App.css';
-import React, { Component } from "react";
-
-class App extends Component {
-
-  constructor(props) {
-    super(props);
-    this.state = { apiResponse: "" };
-  }
-
-  callAPI() {
-    fetch("http://localhost:9000/phones")
-      .then(res => res.text())
-      .then(res => this.setState({ apiResponse: res }));
-  }
-
-  componentWillMount() {
-    this.callAPI();
-  }
-
-  render() {
-    return (
-      <div className="App" >
-        <header className="App-header">
-          <p className="App-intro">{this.state.apiResponse}</p>
-        </header>
-      </div>
-    );
-  }
+import React, { useState, useEffect } from "react";
+import axios from 'axios';
+import PhoneList from "./components/PhoneList"
+function App() {
+  // here you set a state to tell the component it need to wait
+  //  until the result is fetched from the api
+  const [loadingData, setLoadingData] = useState(true);
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    async function getData() {
+      await axios
+        .get("http://localhost:9000/phones")
+        .then((response) => {
+          console.log(response.data);
+          setData(response.data);
+          setLoadingData(false);
+        });
+    }
+    if (loadingData) {
+      getData();
+    }
+  }, []);
+  return (
+    <div className="App">
+      <PhoneList data={data} />
+    </div>
+  );
 }
-
 export default App;
