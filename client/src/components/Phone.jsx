@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Phone(props) {
-    return <div className="note">
+    return <div className="phone">
         <div>
             <img src={props.imageURL} alt={props.name} className="responsive"></img>
         </div>
@@ -12,11 +12,11 @@ function Phone(props) {
             <p>{props.description}</p>
 
             {props.showDetails === true &&
-                <ul>Specs:
-                    <li>{props.color}</li>
-                    <li>{props.screen}</li>
-                    <li>{props.processor}</li>
-                    <li>{props.ram}</li>
+                <ul><b>Specs:</b>
+                    <li>Color: {props.color}</li>
+                    <li>Screen size: {props.screen}</li>
+                    <li>Processor: {props.processor}</li>
+                    <li>Ram: {props.ram}</li>
                 </ul>
             }
         </div>

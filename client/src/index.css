@@ -21,3 +21,23 @@ code {
 ul {
   list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: inherit;
+  text-align: center;
+
+}

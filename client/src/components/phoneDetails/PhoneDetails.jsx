@@ -5,11 +5,7 @@ import Phone from '../Phone';
 function PhoneDetail({ phone }) {
 
     return (
-        <div style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center"
-        }}>
+        <div className="phone">
             <Phone
                 key={phone.id}
                 imageURL={phone.imageURL}

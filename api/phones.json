@@ -1,14 +1,14 @@
 [
     {
         "id": 0,
-        "name": "iPhone 7",
+        "name": "iPhone 13",
         "manufacturer": "Apple",
         "description": "lorem ipsum dolor sit amet consectetur.",
-        "color": "black",
-        "price": 769,
-        "imageURL": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
-        "screen": "4,7 inch IPS",
-        "processor": "A10 Fusion",
+        "color": "midnight",
+        "price": 1029,
+        "imageURL": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/424733_00_1.jpg",
+        "screen": "6.1 inch",
+        "processor": "A15",
         "ram": 2
     },
     {
