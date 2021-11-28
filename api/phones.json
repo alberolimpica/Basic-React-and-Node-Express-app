@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "name": "iPhone 7",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 769,
+        "imageFileName": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
+        "screen": "4,7 inch IPS",
+        "processor": "A10 Fusion",
+        "ram": 2
+    },
+    {
+        "id": 1,
+        "name": "iPhone 7",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 769,
+        "imageFileName": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
+        "screen": "4,7 inch IPS",
+        "processor": "A10 Fusion",
+        "ram": 2
+    },
+    {
+        "id": 2,
+        "name": "iPhone 7",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 769,
+        "imageFileName": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
+        "screen": "4,7 inch IPS",
+        "processor": "A10 Fusion",
+        "ram": 2
+    },
+    {
+        "id": 3,
+        "name": "iPhone 7",
+        "manufacturer": "Apple",
+        "description": "lorem ipsum dolor sit amet consectetur.",
+        "color": "black",
+        "price": 769,
+        "imageFileName": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
+        "screen": "4,7 inch IPS",
+        "processor": "A10 Fusion",
+        "ram": 2
+    }
+]
