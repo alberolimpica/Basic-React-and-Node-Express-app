@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Phone from '../Phone';
+import { Link } from "react-router-dom";
 
 const Item = styled(Paper)(({ theme }) => ({
     ...theme.typography.body2,
@@ -18,19 +19,23 @@ function PhoneGrid({ data }) {
             <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 2, sm: 8, md: 12, lg: 12 }}>
                 {data.map((phone, index) => (
                     <Grid item xs={2} sm={4} md={4} lg={3} key={index}>
-                        <Item> <Phone
-                            key={phone.id}
-                            imageURL={phone.imageURL}
-                            name={phone.name}
-                            manufacter={phone.manufacter}
-                            price={phone.price}
-                            description={phone.description}
-                            showDetails={false}
-                        /> </Item>
+                        <Item>
+                            <Link to={`/phone/${phone.id}`}>
+                                <Phone
+                                    key={phone.id}
+                                    imageURL={phone.imageURL}
+                                    name={phone.name}
+                                    manufacter={phone.manufacter}
+                                    price={phone.price}
+                                    description={phone.description}
+                                    showDetails={false}
+                                />
+                            </Link>
+                        </Item>
                     </Grid>
                 ))}
             </Grid>
-        </Box>
+        </Box >
     );
 }
 

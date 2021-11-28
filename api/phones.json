@@ -13,38 +13,38 @@
     },
     {
         "id": 1,
-        "name": "iPhone 7",
-        "manufacturer": "Apple",
+        "name": "Galaxy A52s",
+        "manufacturer": "Samsung",
         "description": "lorem ipsum dolor sit amet consectetur.",
-        "color": "black",
-        "price": 769,
-        "imageURL": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
-        "screen": "4,7 inch IPS",
-        "processor": "A10 Fusion",
-        "ram": 2
+        "color": "Mint blue",
+        "price": 449,
+        "imageURL": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/339627_00_1.jpg",
+        "screen": "6,5 inch",
+        "processor": "8",
+        "ram": 6
     },
     {
         "id": 2,
-        "name": "iPhone 7",
-        "manufacturer": "Apple",
+        "name": "Mi 11 Lite 5G",
+        "manufacturer": "Xiaomi",
         "description": "lorem ipsum dolor sit amet consectetur.",
         "color": "black",
-        "price": 769,
-        "imageURL": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
-        "screen": "4,7 inch IPS",
-        "processor": "A10 Fusion",
-        "ram": 2
+        "price": 369,
+        "imageURL": "https://static.carrefour.es/hd_510x_/crs/cdn_static/catalog/hd/485133_00_1.jpg",
+        "screen": "6,55 inch",
+        "processor": "8",
+        "ram": 6
     },
     {
         "id": 3,
-        "name": "iPhone 7",
-        "manufacturer": "Apple",
+        "name": "Galaxy Note 20",
+        "manufacturer": "Samsung",
         "description": "lorem ipsum dolor sit amet consectetur.",
-        "color": "black",
-        "price": 769,
-        "imageURL": "https://m.media-amazon.com/images/I/715ii8c7pyL._AC_SX679_.jpg",
-        "screen": "4,7 inch IPS",
-        "processor": "A10 Fusion",
-        "ram": 2
+        "color": "bronze",
+        "price": 1180,
+        "imageURL": "https://static.carrefour.es/hd_510x_/imagenes/products/88060/90594/779/8806090594779/imagenGrande1.jpg",
+        "screen": " 6,9 inch",
+        "processor": " Octa-core",
+        "ram": 4
     }
 ]
